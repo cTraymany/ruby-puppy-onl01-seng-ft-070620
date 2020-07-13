@@ -19,6 +19,10 @@ class Dog
     @@all = []
   end
 
-
+  def self.print_all
+    @@all.each {|dog| puts dog}
+  end
+  
+  
 
 end
